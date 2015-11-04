@@ -1,0 +1,16 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	mc:Ignorable="d"
+	x:Class="Sampleproject.PieChartControl"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Path Data="M199.5,100 C199.5,154.95233 154.95233,199.5 100,199.5 C45.047667,199.5 0.5,154.95233 0.5,100 C0.5,45.047667 45.047667,0.5 100,0.5 C154.95233,0.5 199.5,45.047667 199.5,100 z M149.5,100 C149.5,127.3381 127.3381,149.5 100,149.5 C72.661905,149.5 50.5,127.3381 50.5,100 C50.5,72.661905 72.661905,50.5 100,50.5 C127.3381,50.5 149.5,72.661905 149.5,100 z" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="200" Stretch="Fill" Stroke="Black" VerticalAlignment="Center" Width="200"/>
+		<Grid x:Name="gd_ChartItemArea" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="200"/>
+	</Grid>
+</UserControl>
