@@ -1,6 +1,6 @@
 # SimplePieChart
 
 
-#Ellipse and Arc Control use
+Ellipse and Arc Control use
 
-#Simple PieChart
+Simple PieChart
